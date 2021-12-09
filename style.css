@@ -60,12 +60,48 @@ body {
     border-radius: 10px;
 }
 
+/* Active state */
+.overlay {
+    position: relative;
+    display: inline-block;
+    background: cyan;
+    display: inline-block;
+}
+  
+.overlay > img {
+    vertical-align: middle;
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--cyan);
+    opacity: 0;
+    transition: .4s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.overlay:hover::before {
+    opacity: 0.5;
+}
+
 /* Description */
 .description--title {
     color: var(--white);
     font-weight: 600;
     font-size: 1.6rem;
     margin-left: 1.6rem;
+    transition-duration: .4s;
+}
+
+.description--title:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 .description--text {
@@ -137,6 +173,12 @@ hr {
     color: var(--white);
     opacity: 1;
     font-weight: 400;
+    transition-duration: .4s;
+}
+
+#name:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 /* RESPONSIVE */
