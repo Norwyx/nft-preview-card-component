@@ -18,3 +18,123 @@ html {
     margin: 0;
     padding: 0;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    font-family: var(--ff-origin);
+    font-size: 1.125rem;
+    font-weight: 400;
+    height: 100vh;
+    background-color: var(--bg-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-dark-blue);
+    border-radius: 15px;
+    width: 400px;
+}
+
+/* Image */
+.container__image {
+    margin: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.product-image {
+    width: 21.875rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Description */
+.description--title {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+}
+
+.description--text {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: var(--soft-blue);
+    opacity: 0.5;
+    margin: 1rem 1.5rem 1.5rem 1.6rem;
+}
+
+/* Product info */
+.container__product-info {
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.pricing {
+    font-weight: 600;
+    color: var(--cyan);
+}
+
+.clock-icon {
+    margin-left: 8rem;
+    width: 20px;
+    height: auto;
+}
+
+.time-left {
+    font-weight: 300;
+    color: var(--soft-blue);
+    opacity: 0.5;
+    margin-left: 0.5rem;   
+}
+
+/* User info */
+hr {
+    width: 90%;
+    height: 0.1px;
+    opacity: 0.1;
+    background-color: var(--soft-blue);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.container__user-info {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 1px var(--white);
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.credits-name {
+    font-weight: 300;
+    color: rgba(139, 172, 218, 0.7);   
+}
+
+#name {
+    color: var(--white);
+    opacity: 1;
+    font-weight: 400;
+}
