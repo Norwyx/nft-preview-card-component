@@ -6,7 +6,9 @@
     --line-dark-blue: hsl(215, 32%, 27%);   
     --white: hsl(0, 0%, 100%);
 
-    --ff-origin: 'Outfit', sans-serif;;
+    --ff-origin: 'Outfit', sans-serif;
+
+    --card-shadow: 0px 0px 23px 12px rgba(0,0,0,0.23);
 }
 
 html {
@@ -47,6 +49,7 @@ body {
     background-color: var(--card-dark-blue);
     border-radius: 15px;
     width: 400px;
+    box-shadow: var(--card-shadow);
 }
 
 /* Image */
