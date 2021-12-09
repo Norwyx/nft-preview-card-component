@@ -138,3 +138,63 @@ hr {
     opacity: 1;
     font-weight: 400;
 }
+
+/* RESPONSIVE */
+/* 375px / 23.4375rem */
+@media (max-width: 23.4375rem) {
+    .container {
+        width: 320px;
+    } 
+    
+    .product-image {
+        width: 270px;
+    }
+
+    .description--title {
+        font-size: 1.4rem;
+    }
+
+    .description--text {
+        font-size: 1rem;
+        margin-right: 1rem;
+        line-height: 1.5;
+    }
+
+    .container__product-info {
+        margin-bottom: 1rem;
+    }
+
+    .logo {
+        width: 13px;
+        height: 23px;
+    }
+
+    .pricing {
+        font-size: 1rem;
+    }
+
+    .clock-icon {
+        margin-left: 4.5rem;
+        width: 20px;
+        height: 20px;
+    }
+
+    .time-left {
+        margin-left: 0.3rem;   
+        font-size: 1rem; 
+    }
+
+    .credits-name {
+        font-size: 1rem;  
+    }
+
+    .profile-pic {
+        width: 35px;
+        margin-right: 0.9rem;
+    }
+
+    .container__user-info {
+        margin-top: 1rem;
+        margin-bottom: 1.7rem;
+    }
+}
